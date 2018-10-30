@@ -7,3 +7,13 @@
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems);
   });
+
+  $(".btn-menu").click(
+    function(){
+        $(".menu").show();
+    });
+$(".btn-close").click(
+    function(){
+        $(".menu").hide();
+    }
+)
