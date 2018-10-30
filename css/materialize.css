@@ -2765,6 +2765,7 @@ video.responsive-video {
 }
 
 @media only screen and (max-width: 992px) {
+
   .pagination {
     width: 100%;
   }

@@ -2,3 +2,20 @@
     margin: 75px 0px 80px 0px;
     padding: 10px 0px 10px 0px;
 }
+.btn-menu{
+    float: right;
+}
+
+@media only screen and (min-width: 460px) {
+    .btn-menu{
+        float: right;
+        display: block;
+      
+    }
+}
+
+@media only screen and (min-width: 760px){
+    .btn-menu{
+        display: none;
+    }
+}
